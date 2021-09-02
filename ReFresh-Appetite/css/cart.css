@@ -1,0 +1,156 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.card-img-top{
+  width: 320px;
+  height: 200px;
+}
+
+#heading-main{
+  text-align: center;
+  margin: 150px 0 50px 0;
+  font-family: 'Inter', sans-serif;
+  color: #06b19f;
+  font-size: 300%;
+  font-weight: 700;
+}
+
+#current{
+  margin-left: 41.5%;
+  margin-bottom: 130px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #05B1A0;
+  border-color: #05B1A0;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #FD7133;
+  border-color: #FD7133;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+
+#revote{
+  background-color: #FD7133;
+  border-color: #FD7133;
+  margin: 50px 0 50px 41.5%;
+}
+
+#revote:hover{
+  background-color: #05B1A0;
+  border-color: #05B1A0;
+  margin: 50px 0 50px 41.5%;
+}
+
+#order{
+    margin-left: 46%;
+}
+
+@media(max-width:1550px){
+
+  #current{
+    margin-left: 40%;
+  }
+
+}
+
+@media(max-width:1350px){
+
+  #current{
+    margin-left: 38%;
+  }
+
+}
+
+@media(max-width:1200px){
+
+  #one{
+    margin-right: 100px;
+    margin-left: 70px;
+  }
+
+  #three{
+    margin-right: 100px;
+    margin-left: 70px;
+  }
+
+  #five{
+    margin-right: 100px;
+    margin-left: 70px;
+  }
+
+}
+
+@media(max-width:1000px){
+
+  #one{
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  #three{
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  #five{
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+}
+
+@media(max-width:950px){
+
+  #current{
+    margin-left: 32%;
+  }
+
+}
+
+@media(max-width:768px){
+
+  #one{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #three{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #five{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #two{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #four{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  #six{
+    width: 50%;
+    margin-left: 25%;
+  }
+
+
+
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Index</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/footandnav.css">
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    
+    <body>
+
+      <div id="main-index" style="width: auto;">
+        <a id="logofoot">
+          <img src="images/ReFreshLogoTransparent.png" id="logo-main">
+        </a>
+
+            <h1 id="heading-main">
+             Order online with our <br> simple checkout.
+            </h1>
+            <a href="#" id="login-button" onclick="document.getElementById('id01').style.display='block'" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Log in</a>   
+            <a href="#" id="login-button-2"  onclick="document.getElementById('id01').style.display='block'" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Sing up</a>
+
+
+            <img src="images/home-img1.jpg" id="img-main">
+            <div id="text-box-main"> Support good food and local business
+              <a href="#" id="login-button-3" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">More About Us</a>  
+            </div>
+
+
+
+      </div>
+
+      <div id="footer">
+        <a id="logofoot">
+          <img src="images/ReFreshLogoTransparent.png" id="logo-footer" style="width: 8%; margin-top: 6%;">
+          <div id="footer-phrase">Takeaway & Delivery app <br> for small - medium businesses. </div>
+        </a>
+        <div>
+        <div class="footer-collumn" style="font-weight: 600;">Company</div>
+        <div style="padding-top: 3%;" class="footer-collumn">FaQ</div>
+        <div style="padding-top: 6%;" class="footer-collumn">News</div>
+        <div style="padding-top: 9%;" class="footer-collumn">Terms Of Use</div>
+        <div style="padding-top: 12%;" class="footer-collumn">Company Details</div>
+        </div>
+
+        <div>
+        <div class="footer-collumn-2" style="font-weight: 600;">Contact</div>
+        <div style="padding-top: 3%;" class="footer-collumn-2">Email: refreshappetite@gmail.com</div>
+        <div style="padding-top: 6%;" class="footer-collumn-2">Phone: 077242069690</div>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://www.facebook.com/">
+            <i style="margin-right: 1%;" class="fab fa-facebook fa-2x"></i>
+         </a>
+
+          <a>
+            <i style="margin-right: 1%;" class="fab fa-instagram fa-2x"></i>
+          </a>
+
+          <a>
+            <i style="margin-right: 1%;" class="fab fa-tiktok fa-2x"></i>
+          </a>
+
+        </div>
+
+        
+
+        
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+
+    <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+
+    <div class="container">
+
+        <h1 id="log"><b>Lets login!</b></h1>
+        
+        
+        <form>
+          <div class="form-group">
+            <label for="uname">Enter Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Choose Username" name="uname" required>
+          </div>
+
+        <div class="form-group">
+          <label for="psw">Enter Password</label>
+            <input type="password" placeholer="Choose Password" class="form-control" id="password" name="psw" required>
+        </div>
+      </form>
+      <p style="color: red;" id="errorlog"></p>
+        <button type="button" onclick="getInfo()" style="margin-bottom: 30px;">Login</button>
+        
+      </form>
+    </div>
+
+
+
+
+  </form>
+
+</div>
+
+    <script src="js/login.js"></script>
+    
+
+    </body>
+      
+</html>

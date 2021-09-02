@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>	
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    
+	</head>
+
+
+	<body>
+
+		<h2>Login Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+
+    <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+
+
+    <div class="container">
+
+        <h1 id="log"><b>Lets login!</b></h1>
+
+        <label for="uname"><b>Username</b></label>
+        <input type="text" id="username" placeholder="Choose Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" id="password" placeholer="Choose Password" name="psw" required>
+          
+        <button type="button" onclick="getInfo()">Login</button>
+
+    </div>
+
+
+    <div class="container" style="background-color:#f1f1f1">
+
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+
+    </div>
+
+
+  </form>
+
+</div>
+
+    <script src="../js/login.js"></script>
+    
+  </body>
+  
+</html>
